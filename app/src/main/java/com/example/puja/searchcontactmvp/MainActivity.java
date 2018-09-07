@@ -38,10 +38,6 @@ public class MainActivity extends AppCompatActivity implements MainView, Contact
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-
-        //Log
-
-
         setContentView(R.layout.activity_main);
         unbinder = ButterKnife.bind(this);
 
